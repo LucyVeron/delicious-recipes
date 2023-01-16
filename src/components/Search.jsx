@@ -17,7 +17,6 @@ function Search() {
             <div>
                 <FaSearch />
                 <input onChange={(e) => setInput(e.target.value)} type='text' value={input} />
-                <h1>{input}</h1>
             </div>
         </FormStyle>
     )
